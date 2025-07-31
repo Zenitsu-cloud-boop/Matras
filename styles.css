@@ -36,14 +36,18 @@ h1, h2, h3, h4, h5, h6 {
     transition: var(--transition);
     padding: 1rem 0;
 }
+.yellow-span {
+    color: #FFD700 !important;
+}
 .logo, .footer-logo {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 .navbar-brand {
-    font-weight: 700;
-    height: 100px;
+    height: 60px;
+    width: 200px;
+    /* background-color: #005A9E; */
     /* font-size: 1.5rem; */
 }
 
@@ -689,6 +693,13 @@ h1, h2, h3, h4, h5, h6 {
 .whatsapp-button a:hover {
     transform: scale(1.1);
     box-shadow: 0 8px 25px rgba(37, 211, 102, 0.4);
+}
+@media (max-width: 991px) {
+    .carousel-inner, .carousel-item {
+        position: relative;
+        top: 50px;
+        z-index: 1000;
+    }
 }
 
 /* Animations */
