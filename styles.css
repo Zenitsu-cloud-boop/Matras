@@ -694,13 +694,13 @@ h1, h2, h3, h4, h5, h6 {
     transform: scale(1.1);
     box-shadow: 0 8px 25px rgba(37, 211, 102, 0.4);
 }
-/* @media (max-width: 991px) {
-    .carousel-inner, .carousel-item {
+@media (max-width: 991px) {
+    .apashka-item {
         position: relative;
         top: 50px;
         z-index: 1000;
     }
-} */
+}
 
 /* Animations */
 @keyframes slideInLeft {
