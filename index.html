@@ -122,7 +122,7 @@
     </nav>
 
     <!-- Hero Section with Carousel -->
-    <section id="hero" class="hero-section">
+    <section id="hero" class="hero-section" data-aos="fade-in">
         <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators d-none d-md-flex">
                 <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
@@ -130,14 +130,12 @@
                 <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
             </div>
             <div class="carousel-inner">
-            
-            <!-- Carousel Controls - только для ПК и планшетов -->
                 <!-- Слайд 1 -->
-                <div class="carousel-item active bg-slide-1">
-                    <div class="overlay"></div>
+                <div class="carousel-item active">
+                    <div class="hero-bg" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1920&h=1080&fit=crop')"></div>
                     <div class="container hero-content">
                         <div class="row align-items-center">
-                            <div class="col-lg-10">
+                            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="300">
                                 <h1 class="hero-title">Эксперимент с яйцом пройден</h1>
                                 <p class="hero-subtitle">На всех наших матрасах этот тест удался</p>
                                 <div class="hero-features">
@@ -154,16 +152,21 @@
                                         class="btn btn-outline-light btn-lg">Смотреть эксперимент</a>
                                 </div>
                             </div>
+                            <div class="col-lg-6 d-none d-lg-block" data-aos="fade-left" data-aos-delay="500">
+                                <div class="hero-image">
+                                    <img src="img/bg/bg-1-right.png" alt="Эксперимент с яйцом" class="img-fluid hero-slide-image">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- Слайд 2 -->
-                <div class="carousel-item bg-slide-2">
-                    <div class="overlay"></div>
+                <div class="carousel-item">
+                    <div class="hero-bg" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1920&h=1080&fit=crop')"></div>
                     <div class="container hero-content">
                         <div class="row align-items-center">
-                            <div class="col-lg-10">
+                            <div class="col-lg-6">
                                 <h1 class="hero-title">Эксперимент со стаканом пройден</h1>
                                 <p class="hero-subtitle">Рядом с вами могут прыгать — вы даже не почувствуете</p>
                                 <div class="hero-features">
@@ -180,16 +183,21 @@
                                         class="btn btn-outline-light btn-lg">Смотреть эксперимент</a>
                                 </div>
                             </div>
+                            <div class="col-lg-6 d-none d-lg-block">
+                                <div class="hero-image">
+                                    <img src="img/bg/bg-2-right.png" alt="Эксперимент со стаканом" class="img-fluid hero-slide-image">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- Слайд 3 -->
-                <div class="carousel-item bg-slide-3">
-                    <div class="overlay"></div>
+                <div class="carousel-item">
+                    <div class="hero-bg" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=1920&h=1080&fit=crop')"></div>
                     <div class="container hero-content">
                         <div class="row align-items-center">
-                            <div class="col-lg-10">
+                            <div class="col-lg-6">
                                 <h1 class="hero-title">Апашка рекомендует — и даёт подарок!</h1>
                                 <p class="hero-subtitle">💬 Скидки до −70% и водозащитный наматрасник и подушка с
                                     памятью в подарок 🎁</p>
@@ -204,6 +212,11 @@
                                 <div class="hero-buttons">
                                     <a href="#catalog" class="btn btn-primary btn-lg">Смотреть каталог</a>
                                     <a href="#catalog" class="btn btn-outline-light btn-lg">Получить подарок</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 d-none d-lg-block">
+                                <div class="hero-image">
+                                    <img src="img/bg/bg-3-right.png" alt="Подарки от Апашки" class="img-fluid hero-slide-image">
                                 </div>
                             </div>
                         </div>
@@ -226,14 +239,14 @@
 
 
     <!-- Advantages Section -->
-   <section id="advantages" class="advantages-section py-5">
+   <section id="advantages" class="advantages-section py-5" data-aos="fade-up">
     <div class="container">
         <div class="row align-items-center">
-            <h2 class="section-title text-center mb-4">Почему выбирают нас</h2>
-            <div class="col-lg-6">
+            <h2 class="section-title text-center mb-4" data-aos="fade-up" data-aos-delay="100">Почему выбирают нас</h2>
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
                 
                 <div class="advantage-list">
-                    <div class="advantage-item d-flex mb-4">
+                    <div class="advantage-item d-flex mb-4" data-aos="fade-up" data-aos-delay="300">
                         <div class="advantage-icon me-4">
                             <i class="fas fa-industry"></i>
                         </div>
@@ -243,7 +256,7 @@
                         </div>
                     </div>
                     
-                    <div class="advantage-item d-flex mb-4">
+                    <div class="advantage-item d-flex mb-4" data-aos="fade-up" data-aos-delay="400">
                         <div class="advantage-icon me-4">
                             <i class="fas fa-clock"></i>
                         </div>
@@ -253,7 +266,7 @@
                         </div>
                     </div>
                     
-                    <div class="advantage-item d-flex mb-4">
+                    <div class="advantage-item d-flex mb-4" data-aos="fade-up" data-aos-delay="500">
                         <div class="advantage-icon me-4">
                             <i class="fas fa-truck"></i>
                         </div>
@@ -263,7 +276,7 @@
                         </div>
                     </div>
                     
-                    <div class="advantage-item d-flex">
+                    <div class="advantage-item d-flex" data-aos="fade-up" data-aos-delay="600">
                         <div class="advantage-icon me-4">
                             <i class="fas fa-tags"></i>
                         </div>
@@ -274,7 +287,7 @@
                     </div>
                 </div>
             </div>
-             <div class="col-lg-6 mb-4 mb-lg-0">
+             <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-left" data-aos-delay="300">
                 <img src="https://images.unsplash.com/photo-1581093450021-4a7360e9a9e5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
                      alt="Производство металлопластиковых окон" 
                      class="img-fluid rounded shadow">
@@ -284,31 +297,31 @@
 </section>
 
     <!-- About Section -->
-    <section id="about" class="about-section py-5">
+    <section id="about" class="about-section py-5" data-aos="fade-up">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <h2 class="section-title">О нас</h2>
-                    <p class="about-text">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+                    <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">О нас</h2>
+                    <p class="about-text" data-aos="fade-up" data-aos-delay="300">
                         «Территория Сна» — казахстанский производитель ортопедических матрасов.
                         Мы не просто говорим — мы доказываем через реальные эксперименты.
                     </p>
                     <div class="about-features">
-                        <div class="feature-item">
+                        <div class="feature-item" data-aos="fade-up" data-aos-delay="400">
                             <i class="fas fa-check-circle"></i>
                             <span>Только наши матрасы выдерживают яйцо/вода-тест</span>
                         </div>
-                        <div class="feature-item">
+                        <div class="feature-item" data-aos="fade-up" data-aos-delay="500">
                             <i class="fas fa-check-circle"></i>
                             <span>10+ лет на рынке</span>
                         </div>
-                        <div class="feature-item">
+                        <div class="feature-item" data-aos="fade-up" data-aos-delay="600">
                             <i class="fas fa-check-circle"></i>
                             <span>Гарантия до 10 лет</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
                     <div class="about-image">
                         <img src="img/bg/about-bg.JPG" alt="Производство ортопедических матрасов"
                             class="img-fluid rounded">
@@ -334,16 +347,16 @@
     </section>
 
     <!-- Consultation Form Section -->
-    <section id="consultation" class="consultation-section py-5">
+    <section id="consultation" class="consultation-section py-5" data-aos="fade-up">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center mb-5">
+                <div class="col-12 text-center mb-5" data-aos="fade-up" data-aos-delay="100">
                     <h2 class="section-title">Бесплатная консультация</h2>
                     <p class="section-subtitle">Поможем выбрать идеальный матрас для вас</p>
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-lg-8">
+                <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
                     <div class="consultation-card">
                         <div class="consultation-content">
                             <div class="row">
@@ -396,16 +409,16 @@
     </section>
 
     <!-- Reviews Section -->
-    <section id="reviews" class="reviews-section py-5">
+    <section id="reviews" class="reviews-section py-5" data-aos="fade-up">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center mb-5">
+                <div class="col-12 text-center mb-5" data-aos="fade-up" data-aos-delay="100">
                     <h2 class="section-title">Отзывы наших покупателей</h2>
                     <p class="section-subtitle">Что говорят о нас клиенты</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="review-card">
                         <div class="review-header">
                             <img src="https://st3.depositphotos.com/2309453/18211/i/450/depositphotos_182114914-stock-photo-attractive-middle-aged-man-earnest.jpg"
@@ -426,7 +439,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
                     <div class="review-card">
                         <div class="review-header">
                             <img src="https://img.freepik.com/free-photo/happy-middle-aged-woman-relaxing-outdoors_23-2148979101.jpg?semt=ais_hybrid&w=740&q=80"
@@ -447,7 +460,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
                     <div class="review-card">
                         <div class="review-header">
                             <img src="https://bipbap.ru/wp-content/uploads/2021/10/1454438559_huge-1-730x582.jpg"
@@ -473,16 +486,16 @@
     </section>
 
     <!-- Delivery Section -->
-    <section id="delivery" class="delivery-section py-5">
+    <section id="delivery" class="delivery-section py-5" data-aos="fade-up">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center mb-5">
+                <div class="col-12 text-center mb-5" data-aos="fade-up" data-aos-delay="100">
                     <h2 class="section-title">Доставка и оплата</h2>
                     <p class="section-subtitle">Удобные условия для вас</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="delivery-card">
                         <div class="delivery-icon">
                             <i class="fas fa-truck"></i>
@@ -491,7 +504,7 @@
                         <p>Бесплатная доставка по Таразу в день заказа</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
                     <div class="delivery-card">
                         <div class="delivery-icon">
                             <i class="fas fa-credit-card"></i>
@@ -500,7 +513,7 @@
                         <p>Kaspi рассрочка, перевод, наличные</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
                     <div class="delivery-card">
                         <div class="delivery-icon">
                             <i class="fas fa-undo"></i>
@@ -514,16 +527,16 @@
     </section>
 
     <!-- Map Section -->
-    <section id="map" class="map-section py-5">
+    <section id="map" class="map-section py-5" data-aos="fade-up">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center mb-5">
+                <div class="col-12 text-center mb-5" data-aos="fade-up" data-aos-delay="100">
                     <h2 class="section-title">Наше местоположение</h2>
                     <p class="section-subtitle">Приезжайте к нам в гости</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12">
+                <div class="col-12" data-aos="fade-up" data-aos-delay="200">
                     <div class="map-container">
                         <div style="position:relative;overflow:hidden;">
                             <a href="https://yandex.uz/maps/162/almaty/?utm_medium=mapframe&utm_source=maps"
@@ -660,6 +673,10 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- Custom JS -->
     <script src="script.js"></script>
