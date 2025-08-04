@@ -150,6 +150,8 @@ h6 {
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .carousel-item::before {
@@ -162,6 +164,34 @@ h6 {
     background-color: rgba(0, 0, 0, 0.5);
     /* тёмный фильтр */
     z-index: 1;
+}
+
+/* Правая часть с дополнительным фоном */
+.carousel-item::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+/* Фоны для правой части каждого слайда */
+.bg-slide-1::after {
+    background-image: url('img/bg/bg-1-right.png');
+}
+
+.bg-slide-2::after {
+    background-image: url('img/bg/bg-2-right.png');
+}
+
+.bg-slide-3::after {
+    background-image: url('img/bg/bg-3-right.png');
 }
 
 .hero-content {
