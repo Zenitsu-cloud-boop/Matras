@@ -9,7 +9,8 @@
     <!-- Meta tags for SEO -->
     <meta name="description"
         content="✅ Ортопедические матрасы от производителя в Таразе ✅ Бесплатная доставка ✅ Гарантия до 10 лет ✅ Доказываем качество через эксперименты! ☎️ +7 775 874 78 61">
-    <meta name="keywords" content="матрасы Тараз, ортопедические матрасы, купить матрас Тараз, производитель матрасов, матрасы с доставкой, независимые пружины, беспружинные матрасы, детские матрасы">
+    <meta name="keywords"
+        content="матрасы Тараз, ортопедические матрасы, купить матрас Тараз, производитель матрасов, матрасы с доставкой, независимые пружины, беспружинные матрасы, детские матрасы">
     <meta name="author" content="Территория Сна">
     <meta name="robots" content="index, follow">
     <meta name="language" content="ru">
@@ -24,12 +25,13 @@
     <meta property="og:description"
         content="✅ Ортопедические матрасы от производителя ✅ Бесплатная доставка ✅ Гарантия до 10 лет ✅ Доказываем качество!">
     <meta property="og:image" content="https://territoria-sna.kz/img/logo.jpg">
-    
+
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Территория Сна - Ортопедические матрасы от производителя">
-    <meta name="twitter:description" content="✅ Ортопедические матрасы от производителя ✅ Бесплатная доставка ✅ Гарантия до 10 лет">
-    
+    <meta name="twitter:description"
+        content="✅ Ортопедические матрасы от производителя ✅ Бесплатная доставка ✅ Гарантия до 10 лет">
+
     <!-- Structured Data -->
     <script type="application/ld+json">
     {
@@ -70,10 +72,14 @@
 
 <body>
     <!-- Preloader -->
-    <div class="preloader" id="preloader">
+    <div class="preloader d-flex align-items-center justify-content-center" id="preloader">
         <div class="preloader-content">
             <img src="img/logo-text-blue.png" alt="Территория Сна" class="preloader-logo">
-            <div class="loading"></div>
+            <div class="preloader-spinner">
+                <svg viewBox="25 25 50 50">
+                    <circle r="20" cy="50" cx="50"></circle>
+                </svg>
+            </div>
             <p class="preloader-text">Загружаем лучшие матрасы...</p>
         </div>
     </div>
@@ -84,8 +90,11 @@
             <a class="navbar-brand" href="#">
                 <img src="img/logo-text-white.png" alt="Территория Сна" class="logo">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler burger-menu" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
@@ -115,194 +124,168 @@
     </nav>
 
     <!-- Hero Section with Carousel -->
-    <section id="hero" class="hero-section mt-3">
-        <div class="container">
-            <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
-                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="hero-content">
-                            <div class="container">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-6" data-aos="fade-right">
-                                        <h1 class="hero-title">Матрас <span class="yellow-span"> не ломает </span> яйцо
-                                        </h1>
-                                        <p class="hero-subtitle">Доказываем качество через реальные эксперименты</p>
-                                        <div class="hero-features">
-                                            <div class="hero-feature">
-                                                <i class="fas fa-shield-alt"></i>
-                                                <span>Гарантия 10 лет</span>
-                                            </div>
-                                            <div class="hero-feature">
-                                                <i class="fas fa-truck"></i>
-                                                <span>Бесплатная доставка</span>
-                                            </div>
-                                            <div class="hero-feature">
-                                                <i class="fas fa-industry"></i>
-                                                <span>От производителя</span>
-                                            </div>
-                                        </div>
-                                        <div class="hero-buttons">
-                                            <a href="#catalog" class="btn btn-primary btn-lg">Смотреть каталог</a>
-                                            <a href="#test" class="btn btn-outline-light btn-lg">Смотреть тест</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6" data-aos="fade-left">
-                                        <div class="hero-image">
-                                            <img src="https://sleepvip.uz/thumb/2/xCzJkt2T30oSdcrFItVv-A/r/d/matras_memory_rakurs_2.jpg"
-                                                alt="Тест с яйцом - ортопедический матрас" class="img-fluid rounded lazy-load">
-                                        </div>
-                                    </div>
+    <section id="hero" class="hero-section">
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators d-none d-md-flex">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+            
+            <!-- Carousel Controls - только для ПК и планшетов -->
+            <button class="carousel-control-prev d-none d-md-block" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next d-none d-md-block" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+                <!-- Слайд 1 -->
+                <div class="carousel-item active bg-slide-1">
+                    <div class="container hero-content">
+                        <div class="row align-items-center">
+                            <div class="col-lg-10">
+                                <h1 class="hero-title">Эксперимент с яйцом пройден</h1>
+                                <p class="hero-subtitle">На всех наших матрасах этот тест удался</p>
+                                <div class="hero-features">
+                                    <div class="hero-feature"><i class="fas fa-shield-alt"></i><span>Гарантия 10
+                                            лет</span></div>
+                                    <div class="hero-feature"><i class="fas fa-truck"></i><span>Бесплатная
+                                            доставка</span></div>
+                                    <div class="hero-feature"><i class="fas fa-industry"></i><span>От
+                                            производителя</span></div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="hero-content">
-                            <div class="container">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-6" data-aos="fade-right">
-                                        <h1 class="hero-title">Стакан воды <span class="yellow-span">не шевелится</span>
-                                        </h1>
-                                        <p class="hero-subtitle">Идеальная стабильность для спокойного сна</p>
-                                        <div class="hero-features">
-                                            <div class="hero-feature">
-                                                <i class="fas fa-bed"></i>
-                                                <span>Независимые пружины</span>
-                                            </div>
-                                            <div class="hero-feature">
-                                                <i class="fas fa-leaf"></i>
-                                                <span>Экологичные материалы</span>
-                                            </div>
-                                            <div class="hero-feature">
-                                                <i class="fas fa-certificate"></i>
-                                                <span>Сертифицировано</span>
-                                            </div>
-                                        </div>
-                                        <div class="hero-buttons">
-                                            <a href="#catalog" class="btn btn-primary btn-lg">Смотреть каталог</a>
-                                            <a href="#test" class="btn btn-outline-light btn-lg">Смотреть тест</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6" data-aos="fade-left">
-                                        <div class="hero-image">
-                                            <img src="https://weqew.ru/wp-content/uploads/2019/02/2-16.jpg"
-                                                alt="Тест с водой - стабильность матраса" class="img-fluid rounded lazy-load">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item apashka-item">
-                        <div class="hero-content">
-                            <div class="container">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-6" data-aos="fade-right">
-                                        <h1 class="hero-title">Апашка рекомендует</h1>
-                                        <p class="hero-subtitle">Акция <span class="yellow-span"> -70% + подарок </span>
-                                            при покупке</p>
-                                        <div class="hero-features">
-                                            <div class="hero-feature">
-                                                <i class="fas fa-gift"></i>
-                                                <span>Подарок в комплекте</span>
-                                            </div>
-                                            <div class="hero-feature">
-                                                <i class="fas fa-percentage"></i>
-                                                <span>Скидка до 70%</span>
-                                            </div>
-                                            <div class="hero-feature">
-                                                <i class="fas fa-clock"></i>
-                                                <span>Ограниченное время</span>
-                                            </div>
-                                        </div>
-                                        <div class="hero-buttons">
-                                            <a href="#catalog" class="btn btn-primary btn-lg">Смотреть каталог</a>
-                                            <a href="#test" class="btn btn-outline-light btn-lg">Смотреть тест</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6" data-aos="fade-left">
-                                        <div class="hero-image">
-                                            <img src="img/a_young_woman_in_white_sleepwear_lying_in_bed_hugging_a_soft_white_pillow_eyes_closed_smiling_peace_zdeg2gohk41r04g6p9m2_3.png"
-                                                alt="Комфортный сон на ортопедическом матрасе" class="img-fluid rounded lazy-load">
-                                        </div>
-                                    </div>
+                                <div class="hero-buttons">
+                                    <a href="#catalog" class="btn btn-primary btn-lg">Смотреть каталог</a>
+                                    <a href="https://www.instagram.com/reel/DK9b1WGN30H/" target="_blank"
+                                        class="btn btn-outline-light btn-lg">Смотреть эксперимент</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Предыдущий</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Следующий</span>
-                </button>
+
+                <!-- Слайд 2 -->
+                <div class="carousel-item bg-slide-2">
+                    <div class="container hero-content">
+                        <div class="row align-items-center">
+                            <div class="col-lg-10">
+                                <h1 class="hero-title">Эксперимент со стаканом пройден</h1>
+                                <p class="hero-subtitle">Рядом с вами могут прыгать — вы даже не почувствуете</p>
+                                <div class="hero-features">
+                                    <div class="hero-feature"><i class="fas fa-bed"></i><span>Независимые пружины</span>
+                                    </div>
+                                    <div class="hero-feature"><i class="fas fa-leaf"></i><span>Экологичные
+                                            материалы</span></div>
+                                    <div class="hero-feature"><i
+                                            class="fas fa-certificate"></i><span>Сертифицировано</span></div>
+                                </div>
+                                <div class="hero-buttons">
+                                    <a href="#catalog" class="btn btn-primary btn-lg">Смотреть каталог</a>
+                                    <a href="https://www.instagram.com/reel/DLPVRO8tjZ8/" target="_blank"
+                                        class="btn btn-outline-light btn-lg">Смотреть эксперимент</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Слайд 3 -->
+                <div class="carousel-item bg-slide-3">
+                    <div class="container hero-content">
+                        <div class="row align-items-center">
+                            <div class="col-lg-10">
+                                <h1 class="hero-title">Апашка рекомендует — и даёт подарок!</h1>
+                                <p class="hero-subtitle">💬 Скидки до −70% и водозащитный наматрасник и подушка с
+                                    памятью в подарок 🎁</p>
+                                <div class="hero-features">
+                                    <div class="hero-feature"><i class="fas fa-gift"></i><span>Подарок в
+                                            комплекте</span></div>
+                                    <div class="hero-feature"><i class="fas fa-percentage"></i><span>Скидка до
+                                            70%</span></div>
+                                    <div class="hero-feature"><i class="fas fa-clock"></i><span>Ограниченное
+                                            время</span></div>
+                                </div>
+                                <div class="hero-buttons">
+                                    <a href="#catalog" class="btn btn-primary btn-lg">Смотреть каталог</a>
+                                    <a href="#catalog" class="btn btn-outline-light btn-lg">Получить подарок</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
 
+
     <!-- Advantages Section -->
-    <section id="advantages" class="advantages-section py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center mb-5" data-aos="fade-up">
-                    <h2 class="section-title">Наши преимущества</h2>
-                    <p class="section-subtitle">Почему выбирают именно нас</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
-                    <div class="advantage-card">
-                        <div class="advantage-icon">
+   <section id="advantages" class="advantages-section py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <h2 class="section-title text-center mb-4">Почему выбирают нас</h2>
+            <div class="col-lg-6">
+                
+                <div class="advantage-list">
+                    <div class="advantage-item d-flex mb-4">
+                        <div class="advantage-icon me-4">
                             <i class="fas fa-industry"></i>
                         </div>
-                        <h4>Завод-изготовитель</h4>
-                        <p>Прямые поставки от производителя без посредников</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
-                    <div class="advantage-card">
-                        <div class="advantage-icon">
-                            <i class="fas fa-bed"></i>
+                        <div>
+                            <h4>Завод изготовитель</h4>
+                            <p class="mb-0">Изготовим любой размер, любой модели</p>
                         </div>
-                        <h4>Ортопедическая поддержка</h4>
-                        <p>Идеальная поддержка позвоночника для здорового сна</p>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
-                    <div class="advantage-card">
-                        <div class="advantage-icon">
-                            <i class="fas fa-box"></i>
+                    
+                    <div class="advantage-item d-flex mb-4">
+                        <div class="advantage-icon me-4">
+                            <i class="fas fa-clock"></i>
                         </div>
-                        <h4>Всегда в наличии</h4>
-                        <p>Большой склад готовой продукции для быстрой доставки</p>
+                        <div>
+                            <h4>Срок службы</h4>
+                            <p class="mb-0">До 20 лет надежной службы</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
-                    <div class="advantage-card">
-                        <div class="advantage-icon">
+                    
+                    <div class="advantage-item d-flex mb-4">
+                        <div class="advantage-icon me-4">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <div>
+                            <h4>Бесплатная доставка</h4>
+                            <p class="mb-0">День в день по Таразу</p>
+                        </div>
+                    </div>
+                    
+                    <div class="advantage-item d-flex">
+                        <div class="advantage-icon me-4">
                             <i class="fas fa-tags"></i>
                         </div>
-                        <h4>Заводская цена</h4>
-                        <p>Минимальные цены без наценок посредников</p>
+                        <div>
+                            <h4>Цены от производителя</h4>
+                            <p class="mb-0">Без наценок посредников</p>
+                        </div>
                     </div>
                 </div>
             </div>
+             <div class="col-lg-6 mb-4 mb-lg-0">
+                <img src="https://images.unsplash.com/photo-1581093450021-4a7360e9a9e5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                     alt="Производство металлопластиковых окон" 
+                     class="img-fluid rounded shadow">
+            </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- About Section -->
     <section id="about" class="about-section py-5">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6" data-aos="fade-right">
+                <div class="col-lg-6">
                     <h2 class="section-title">О нас</h2>
                     <p class="about-text">
                         «Территория Сна» — казахстанский производитель ортопедических матрасов.
@@ -323,10 +306,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6" data-aos="fade-left">
+                <div class="col-lg-6">
                     <div class="about-image">
-                        <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=500&h=400&fit=crop&crop=center"
-                            alt="Производство ортопедических матрасов" class="img-fluid rounded lazy-load">
+                        <img src="img/bg/about-bg.JPG" alt="Производство ортопедических матрасов"
+                            class="img-fluid rounded">
                     </div>
                 </div>
             </div>
@@ -342,60 +325,68 @@
                     <p class="section-subtitle">Выберите свой идеальный матрас</p>
                 </div>
             </div>
-            <div class="row" id="products-container">
+            <div class="row justify-content-center" id="products-container">
                 <!-- Products will be loaded from JSON -->
             </div>
         </div>
     </section>
 
-    <!-- Comparison Table -->
-    <section id="comparison" class="comparison-section py-5">
+    <!-- Consultation Form Section -->
+    <section id="consultation" class="consultation-section py-5">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center mb-5" data-aos="fade-up">
-                    <h2 class="section-title">Сравнение моделей</h2>
-                    <p class="section-subtitle">Выберите подходящую модель</p>
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Бесплатная консультация</h2>
+                    <p class="section-subtitle">Поможем выбрать идеальный матрас для вас</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12" data-aos="fade-up">
-                    <div class="table-responsive">
-                        <table class="table comparison-table">
-                            <thead>
-                                <tr>
-                                    <th>Характеристика</th>
-                                    <th>Орто Стандарт</th>
-                                    <th>Орто Премиум</th>
-                                    <th>Орто Люкс</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Жесткость</td>
-                                    <td>Средняя</td>
-                                    <td>Средне-жесткая</td>
-                                    <td>Жесткая</td>
-                                </tr>
-                                <tr>
-                                    <td>Высота</td>
-                                    <td>18 см</td>
-                                    <td>22 см</td>
-                                    <td>25 см</td>
-                                </tr>
-                                <tr>
-                                    <td>Состав</td>
-                                    <td>Пружины + кокос</td>
-                                    <td>Независимые пружины + латекс</td>
-                                    <td>Независимые пружины + латекс + кокос</td>
-                                </tr>
-                                <tr>
-                                    <td>Для кого</td>
-                                    <td>Средний вес</td>
-                                    <td>Разный вес</td>
-                                    <td>Любой вес</td>
-                                </tr>
-                            </tbody>
-                        </table>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="consultation-card">
+                        <div class="consultation-content">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="consultation-info">
+                                        <h4><i class="fas fa-user-tie"></i> Наш эксперт поможет:</h4>
+                                        <ul class="consultation-benefits">
+                                            <li><i class="fas fa-check"></i> Подобрать матрас по весу и росту</li>
+                                            <li><i class="fas fa-check"></i> Определить нужную жесткость</li>
+                                            <li><i class="fas fa-check"></i> Рассчитать лучшую цену</li>
+                                            <li><i class="fas fa-check"></i> Ответить на все вопросы</li>
+                                        </ul>
+                                        <div class="consultation-guarantee">
+                                            <i class="fas fa-shield-alt"></i>
+                                            <span>Консультация абсолютно бесплатна</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <form class="consultation-form" id="consultationForm">
+                                        <h5><i class="fas fa-phone"></i> Заказать звонок</h5>
+                                        <div class="mb-3">
+                                            <label for="consultationName" class="form-label">Ваше имя *</label>
+                                            <input type="text" class="form-control" id="consultationName" required
+                                                placeholder="Введите ваше имя">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="consultationPhone" class="form-label">Номер телефона *</label>
+                                            <input type="tel" class="form-control" id="consultationPhone" required
+                                                placeholder="+7 (___) ___-__-__">
+                                        </div>
+                                        <div class="d-grid">
+                                            <button type="submit" class="btn btn-consultation">
+                                                <i class="fas fa-phone-alt"></i>
+                                                Заказать бесплатную консультацию
+                                            </button>
+                                        </div>
+                                        <p class="consultation-note">
+                                            <i class="fas fa-clock"></i>
+                                            Перезвоним в течение 5 минут
+                                        </p>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -406,13 +397,13 @@
     <section id="reviews" class="reviews-section py-5">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                <div class="col-12 text-center mb-5">
                     <h2 class="section-title">Отзывы наших покупателей</h2>
                     <p class="section-subtitle">Что говорят о нас клиенты</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-4 col-md-6 mb-4">
                     <div class="review-card">
                         <div class="review-header">
                             <img src="https://st3.depositphotos.com/2309453/18211/i/450/depositphotos_182114914-stock-photo-attractive-middle-aged-man-earnest.jpg"
@@ -433,7 +424,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-4 col-md-6 mb-4">
                     <div class="review-card">
                         <div class="review-header">
                             <img src="https://img.freepik.com/free-photo/happy-middle-aged-woman-relaxing-outdoors_23-2148979101.jpg?semt=ais_hybrid&w=740&q=80"
@@ -454,7 +445,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="col-lg-4 col-md-6 mb-4">
                     <div class="review-card">
                         <div class="review-header">
                             <img src="https://bipbap.ru/wp-content/uploads/2021/10/1454438559_huge-1-730x582.jpg"
@@ -483,13 +474,13 @@
     <section id="delivery" class="delivery-section py-5">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                <div class="col-12 text-center mb-5">
                     <h2 class="section-title">Доставка и оплата</h2>
                     <p class="section-subtitle">Удобные условия для вас</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-4 col-md-6 mb-4">
                     <div class="delivery-card">
                         <div class="delivery-icon">
                             <i class="fas fa-truck"></i>
@@ -498,7 +489,7 @@
                         <p>Бесплатная доставка по Таразу в день заказа</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-4 col-md-6 mb-4">
                     <div class="delivery-card">
                         <div class="delivery-icon">
                             <i class="fas fa-credit-card"></i>
@@ -507,7 +498,7 @@
                         <p>Kaspi рассрочка, перевод, наличные</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="col-lg-4 col-md-6 mb-4">
                     <div class="delivery-card">
                         <div class="delivery-icon">
                             <i class="fas fa-undo"></i>
@@ -524,13 +515,13 @@
     <section id="map" class="map-section py-5">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                <div class="col-12 text-center mb-5">
                     <h2 class="section-title">Наше местоположение</h2>
                     <p class="section-subtitle">Приезжайте к нам в гости</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12" data-aos="fade-up">
+                <div class="col-12">
                     <div class="map-container">
                         <div style="position:relative;overflow:hidden;">
                             <a href="https://yandex.uz/maps/162/almaty/?utm_medium=mapframe&utm_source=maps"
@@ -570,16 +561,18 @@
                 <div class="col-lg-4 col-md-6 mb-4">
                     <h5>Социальные сети</h5>
                     <div class="social-links">
-                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/matrasy_territoria_sna.kz?igsh=MXZ2N2h5N2FrZ3pxZg=="
+                            class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@territoriyasna.kz?_t=ZM-8yVcRFe0hD6&_r=1"
+                            class="social-link"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://wa.me/77758747861" class="social-link"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12">
                     <div class="footer-bottom">
-                        <p>&copy; 2024 Территория Сна. Все права защищены.</p>
+                        <p>&copy; 2025 Территория Сна. Все права защищены.</p>
                     </div>
                 </div>
             </div>
@@ -626,37 +619,30 @@
                             <!-- Order details will be populated here -->
                         </div>
                     </div>
-                    
+
                     <form class="order-form" id="orderForm">
                         <div class="row">
                             <div class="col-md-6 mb-3">
                                 <label for="customerName" class="form-label">
                                     <i class="fas fa-user"></i> Ваше имя *
                                 </label>
-                                <input type="text" class="form-control" id="customerName" required 
-                                       placeholder="Введите ваше имя">
+                                <input type="text" class="form-control" id="customerName" required
+                                    placeholder="Введите ваше имя">
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label for="customerPhone" class="form-label">
                                     <i class="fas fa-phone"></i> Номер телефона *
                                 </label>
-                                <input type="tel" class="form-control" id="customerPhone" required 
-                                       placeholder="+7 (___) ___-__-__">
+                                <input type="tel" class="form-control" id="customerPhone" required
+                                    placeholder="+7 (___) ___-__-__">
                             </div>
                         </div>
                         <div class="mb-3">
-                            <label for="customerAddress" class="form-label">
-                                <i class="fas fa-map-marker-alt"></i> Адрес доставки
-                            </label>
-                            <textarea class="form-control" id="customerAddress" rows="2" 
-                                      placeholder="Укажите адрес для доставки (необязательно)"></textarea>
-                        </div>
-                        <div class="mb-3">
                             <label for="customerComment" class="form-label">
-                                <i class="fas fa-comment"></i> Комментарий к заказу
+                                <i class="fas fa-comment"></i> Комментарий (необязательно)
                             </label>
-                            <textarea class="form-control" id="customerComment" rows="2" 
-                                      placeholder="Дополнительные пожелания (необязательно)"></textarea>
+                            <textarea class="form-control" id="customerComment" rows="2"
+                                placeholder="Дополнительные пожелания"></textarea>
                         </div>
                         <div class="d-grid">
                             <button type="submit" class="whatsapp-btn">

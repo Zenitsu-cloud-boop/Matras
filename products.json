@@ -2,9 +2,11 @@
   {
     "id": 1,
     "name": "Детский матрас Baby Happy",
+    "instagramVideo": "https://www.instagram.com/reel/DLNbnMhtOYs/?igsh=MWk5aHMwcGZka3BoaA==",
     "category": "children",
     "price": 15000,
     "originalPrice": 18000,
+    "discountPercent": 27,
     "images": ["img/матрасы/детские матрасы/Baby happy/51664_big.jpg"],
     "description": "Ортопедический детский матрас Kids Happy ППУ 10 предоставляет необходимую поддержку во время сна. В основе — монолит из пенополиуретана 10 см, легкий и упругий материал.",
     "features": [
@@ -15,9 +17,24 @@
       "Срок службы: 6–7 лет"
     ],
     "sizes": [
-      { "name": "60x120", "price": 15000, "originalPrice": 18000 },
-      { "name": "80x190", "price": 26000, "originalPrice": 30000 },
-      { "name": "140x200", "price": 42000, "originalPrice": 46000 }
+      {
+        "name": "60x120",
+        "price": 15000,
+        "originalPrice": 18000,
+        "discountPercent": 17
+      },
+      {
+        "name": "80x190",
+        "price": 26000,
+        "originalPrice": 30000,
+        "discountPercent": 13
+      },
+      {
+        "name": "140x200",
+        "price": 42000,
+        "originalPrice": 46000,
+        "discountPercent": 9
+      }
     ],
     "rating": 4.7,
     "reviews": 119,
@@ -26,9 +43,11 @@
   {
     "id": 2,
     "name": "Детский матрас Kids Comfort",
+    "instagramVideo": "https://www.instagram.com/reel/DLNbnMhtOYs/?igsh=MWk5aHMwcGZka3BoaA==",
     "category": "children",
     "price": 24000,
     "originalPrice": 27000,
+    "discountPercent": 11,
     "images": ["img/матрасы/детские матрасы/Kids/16225_0.jpeg"],
     "description": "Матрас с разной жесткостью сторон. ППУ и кокос обеспечивают упругость и поддержку. Экологичный, гипоаллергенный и воздухопроницаемый материал для комфорта и здоровья ребёнка.",
     "features": [
@@ -40,9 +59,24 @@
       "Срок службы: 6–7 лет"
     ],
     "sizes": [
-      { "name": "60x120", "price": 24000, "originalPrice": 27000 },
-      { "name": "70x140", "price": 27000, "originalPrice": 30000 },
-      { "name": "140x200", "price": 55000, "originalPrice": 60000 }
+      {
+        "name": "60x120",
+        "price": 24000,
+        "originalPrice": 27000,
+        "discountPercent": 11
+      },
+      {
+        "name": "70x140",
+        "price": 27000,
+        "originalPrice": 30000,
+        "discountPercent": 10
+      },
+      {
+        "name": "140x200",
+        "price": 55000,
+        "originalPrice": 60000,
+        "discountPercent": 8
+      }
     ],
     "rating": 4.8,
     "reviews": 152
@@ -50,9 +84,12 @@
   {
     "id": 3,
     "name": "Матрас BONNEL ECONOM",
+    "instagramVideo": "https://www.instagram.com/reel/DLNbnMhtOYs/?igsh=MWk5aHMwcGZka3BoaA==",
+
     "category": "dependent",
     "price": 23000,
     "originalPrice": 26000,
+    "discountPercent": 12,
     "images": [
       "img/матрасы/матрасы с зависимыми пружинами/Матрас BONNEL ECONOM/кл эк.jpg"
     ],
@@ -68,12 +105,42 @@
       "Высота: 17 см"
     ],
     "sizes": [
-      { "name": "80x190", "price": 23000, "originalPrice": 26000 },
-      { "name": "90x190", "price": 26000, "originalPrice": 29000 },
-      { "name": "120x200", "price": 29000, "originalPrice": 32000 },
-      { "name": "140x200", "price": 31000, "originalPrice": 34000 },
-      { "name": "160x200", "price": 33000, "originalPrice": 36000 },
-      { "name": "180x200", "price": 35000, "originalPrice": 38000 }
+      {
+        "name": "80x190",
+        "price": 23000,
+        "originalPrice": 26000,
+        "discountPercent": 12
+      },
+      {
+        "name": "90x190",
+        "price": 26000,
+        "originalPrice": 29000,
+        "discountPercent": 10
+      },
+      {
+        "name": "120x200",
+        "price": 29000,
+        "originalPrice": 32000,
+        "discountPercent": 9
+      },
+      {
+        "name": "140x200",
+        "price": 31000,
+        "originalPrice": 34000,
+        "discountPercent": 9
+      },
+      {
+        "name": "160x200",
+        "price": 33000,
+        "originalPrice": 36000,
+        "discountPercent": 8
+      },
+      {
+        "name": "180x200",
+        "price": 35000,
+        "originalPrice": 38000,
+        "discountPercent": 8
+      }
     ],
     "rating": 4.6,
     "reviews": 87
@@ -81,9 +148,11 @@
   {
     "id": 4,
     "name": "Матрас BONNEL-1",
+    "instagramVideo": "https://www.instagram.com/reel/DLNbnMhtOYs/?igsh=MWk5aHMwcGZka3BoaA==",
     "category": "dependent",
     "price": 29500,
     "originalPrice": 32500,
+    "discountPercent": 9,
     "images": [
       "img/матрасы/матрасы с зависимыми пружинами/Матрас BONNEL-1/кл ус.jpg"
     ],
@@ -99,12 +168,42 @@
       "Высота: 22 см"
     ],
     "sizes": [
-      { "name": "80x190", "price": 29500, "originalPrice": 32500 },
-      { "name": "90x200", "price": 32000, "originalPrice": 35000 },
-      { "name": "120x200", "price": 37000, "originalPrice": 40000 },
-      { "name": "140x200", "price": 42000, "originalPrice": 45000 },
-      { "name": "160x200", "price": 47000, "originalPrice": 50000 },
-      { "name": "180x200", "price": 50000, "originalPrice": 53000 }
+      {
+        "name": "80x190",
+        "price": 29500,
+        "originalPrice": 32500,
+        "discountPercent": 9
+      },
+      {
+        "name": "90x200",
+        "price": 32000,
+        "originalPrice": 35000,
+        "discountPercent": 9
+      },
+      {
+        "name": "120x200",
+        "price": 37000,
+        "originalPrice": 40000,
+        "discountPercent": 8
+      },
+      {
+        "name": "140x200",
+        "price": 42000,
+        "originalPrice": 45000,
+        "discountPercent": 7
+      },
+      {
+        "name": "160x200",
+        "price": 47000,
+        "originalPrice": 50000,
+        "discountPercent": 6
+      },
+      {
+        "name": "180x200",
+        "price": 50000,
+        "originalPrice": 53000,
+        "discountPercent": 6
+      }
     ],
     "rating": 4.8,
     "reviews": 104
@@ -112,6 +211,8 @@
   {
     "id": 5,
     "name": "Матрас BONNEL-2",
+    "instagramVideo": "https://www.instagram.com/reel/DLNbnMhtOYs/?igsh=MWk5aHMwcGZka3BoaA==",
+
     "category": "dependent",
     "price": 33000,
     "originalPrice": 36000,
@@ -130,12 +231,42 @@
       "Высота: 24 см"
     ],
     "sizes": [
-      { "name": "80x190", "price": 33000, "originalPrice": 36000 },
-      { "name": "90x190", "price": 36000, "originalPrice": 39000 },
-      { "name": "120x200", "price": 42000, "originalPrice": 46000 },
-      { "name": "140x200", "price": 48000, "originalPrice": 52000 },
-      { "name": "160x200", "price": 54000, "originalPrice": 58000 },
-      { "name": "180x200", "price": 62000, "originalPrice": 66000 }
+      {
+        "name": "80x190",
+        "price": 33000,
+        "originalPrice": 36000,
+        "discountPercent": 8
+      },
+      {
+        "name": "90x190",
+        "price": 36000,
+        "originalPrice": 39000,
+        "discountPercent": 8
+      },
+      {
+        "name": "120x200",
+        "price": 42000,
+        "originalPrice": 46000,
+        "discountPercent": 9
+      },
+      {
+        "name": "140x200",
+        "price": 48000,
+        "originalPrice": 52000,
+        "discountPercent": 8
+      },
+      {
+        "name": "160x200",
+        "price": 54000,
+        "originalPrice": 58000,
+        "discountPercent": 7
+      },
+      {
+        "name": "180x200",
+        "price": 62000,
+        "originalPrice": 66000,
+        "discountPercent": 6
+      }
     ],
     "rating": 4.9,
     "reviews": 141
@@ -143,6 +274,7 @@
   {
     "id": 6,
     "name": "Orma Tech Mix",
+    "instagramVideo": "https://www.instagram.com/reel/DLNbnMhtOYs/?igsh=MWk5aHMwcGZka3BoaA==",
     "category": "springless",
     "price": 55000,
     "originalPrice": 58000,
@@ -164,12 +296,42 @@
       "Гарантия: 5 лет"
     ],
     "sizes": [
-      { "name": "80x190", "price": 55000, "originalPrice": 58000 },
-      { "name": "90x190", "price": 58000, "originalPrice": 61000 },
-      { "name": "120x200", "price": 64000, "originalPrice": 68000 },
-      { "name": "140x200", "price": 70000, "originalPrice": 74000 },
-      { "name": "160x200", "price": 76000, "originalPrice": 80000 },
-      { "name": "180x200", "price": 84000, "originalPrice": 88000 }
+      {
+        "name": "80x190",
+        "price": 55000,
+        "originalPrice": 58000,
+        "discountPercent": 5
+      },
+      {
+        "name": "90x190",
+        "price": 58000,
+        "originalPrice": 61000,
+        "discountPercent": 5
+      },
+      {
+        "name": "120x200",
+        "price": 64000,
+        "originalPrice": 68000,
+        "discountPercent": 6
+      },
+      {
+        "name": "140x200",
+        "price": 70000,
+        "originalPrice": 74000,
+        "discountPercent": 5
+      },
+      {
+        "name": "160x200",
+        "price": 76000,
+        "originalPrice": 80000,
+        "discountPercent": 5
+      },
+      {
+        "name": "180x200",
+        "price": 84000,
+        "originalPrice": 88000,
+        "discountPercent": 5
+      }
     ],
     "rating": 4.9,
     "reviews": 127
@@ -177,6 +339,8 @@
   {
     "id": 7,
     "name": "EcoRoll Кокос",
+    "instagramVideo": "https://www.instagram.com/reel/DLNbnMhtOYs/?igsh=MWk5aHMwcGZka3BoaA==",
+
     "category": "springless",
     "price": 21000,
     "originalPrice": 24000,
@@ -193,12 +357,42 @@
       "Гарантия: 1 год"
     ],
     "sizes": [
-      { "name": "80x190", "price": 21000, "originalPrice": 24000 },
-      { "name": "90x190", "price": 23000, "originalPrice": 26000 },
-      { "name": "120x200", "price": 28000, "originalPrice": 31000 },
-      { "name": "140x200", "price": 32000, "originalPrice": 35000 },
-      { "name": "160x200", "price": 36000, "originalPrice": 39000 },
-      { "name": "180x200", "price": 41000, "originalPrice": 44000 }
+      {
+        "name": "80x190",
+        "price": 21000,
+        "originalPrice": 24000,
+        "discountPercent": 13
+      },
+      {
+        "name": "90x190",
+        "price": 23000,
+        "originalPrice": 26000,
+        "discountPercent": 12
+      },
+      {
+        "name": "120x200",
+        "price": 28000,
+        "originalPrice": 31000,
+        "discountPercent": 10
+      },
+      {
+        "name": "140x200",
+        "price": 32000,
+        "originalPrice": 35000,
+        "discountPercent": 9
+      },
+      {
+        "name": "160x200",
+        "price": 36000,
+        "originalPrice": 39000,
+        "discountPercent": 8
+      },
+      {
+        "name": "180x200",
+        "price": 41000,
+        "originalPrice": 44000,
+        "discountPercent": 7
+      }
     ],
     "rating": 4.7,
     "reviews": 89,
@@ -207,6 +401,7 @@
   {
     "id": 8,
     "name": "LATEX-SOFT",
+    "instagramVideo": "https://www.instagram.com/reel/DK9b1WGN30H/?igsh=MWtuNTRhbm1uZm5tZQ==",
     "category": "springless",
     "price": 75000,
     "originalPrice": 79000,
@@ -225,19 +420,118 @@
       "Срок службы: до 20 лет"
     ],
     "sizes": [
-      { "name": "80x190", "price": 75000, "originalPrice": 79000 },
-      { "name": "90x190", "price": 78000, "originalPrice": 82000 },
-      { "name": "120x200", "price": 85000, "originalPrice": 89000 },
-      { "name": "140x200", "price": 92000, "originalPrice": 96000 },
-      { "name": "160x200", "price": 99000, "originalPrice": 103000 },
-      { "name": "180x200", "price": 108000, "originalPrice": 112000 }
+      {
+        "name": "80x190",
+        "price": 75000,
+        "originalPrice": 79000,
+        "discountPercent": 5
+      },
+      {
+        "name": "90x190",
+        "price": 78000,
+        "originalPrice": 82000,
+        "discountPercent": 5
+      },
+      {
+        "name": "120x200",
+        "price": 85000,
+        "originalPrice": 89000,
+        "discountPercent": 4
+      },
+      {
+        "name": "140x200",
+        "price": 92000,
+        "originalPrice": 96000,
+        "discountPercent": 4
+      },
+      {
+        "name": "160x200",
+        "price": 99000,
+        "originalPrice": 103000,
+        "discountPercent": 4
+      },
+      {
+        "name": "180x200",
+        "price": 108000,
+        "originalPrice": 112000,
+        "discountPercent": 4
+      }
     ],
     "rating": 4.95,
-    "reviews": 176
+    "reviews": 176,
+    "badge": "Новинка"
+  },
+   {
+    "id": 9,
+    "name": "Orto Max Sale",
+    "instagramVideo": "https://www.instagram.com/reel/DLNbnMhtOYs/?igsh=MWk5aHMwcGZka3BoaA==",
+
+    "category": "independent",
+    "price": 28000,
+    "originalPrice": 35000,
+    "images": [
+      "img/матрасы/матрасы с независимыми пружинами/матрас ORTHO MAX SALE/е1.jpg",
+      "img/матрасы/матрасы с независимыми пружинами/матрас ORTHO MAX SALE/э1.jpg"
+    ],
+    "description": "Ортопедический матрас с независимыми пружинами TFK и пеноосновой OrtoFoam. Подходит для сна до 110 кг. Дышащий, гипоаллергенный, средней мягкости. Оптимален по цене, комфорту и высоте — 18 см.",
+    "features": [
+      "Независимый пружинный блок Pocket Spring, 480 пружин/сп. место",
+      "Стороны: ППУ 1,5 см + термовойлок с обеих сторон",
+      "Периметр: эластичный еврокаркас из ППУ",
+      "Высота: 18 см",
+      "Жесткость: умеренно-мягкий",
+      "Чехол: жаккард, стёганный с синтепоном",
+      "Нагрузка: до 110 кг",
+      "Без клея, гипоаллергенные материалы",
+      "Гарантия: 24 месяца",
+      "Срок службы: до 8 лет"
+    ],
+    "sizes": [
+      {
+        "name": "80x190",
+        "price": 28000,
+        "originalPrice": 35000,
+        "discountPercent": 20
+      },
+      {
+        "name": "90x190",
+        "price": 31000,
+        "originalPrice": 39000,
+        "discountPercent": 21
+      },
+      {
+        "name": "120x200",
+        "price": 36800,
+        "originalPrice": 46000,
+        "discountPercent": 20
+      },
+      {
+        "name": "140x200",
+        "price": 42400,
+        "originalPrice": 53000,
+        "discountPercent": 20
+      },
+      {
+        "name": "160x200",
+        "price": 46000,
+        "originalPrice": 58000,
+        "discountPercent": 21
+      },
+      {
+        "name": "180x200",
+        "price": 52000,
+        "originalPrice": 65000,
+        "discountPercent": 20
+      }
+    ],
+    "rating": 4.72,
+    "reviews": 96
   },
   {
-    "id": 9,
+    "id": 10,
     "name": "ORTO MAX SALE-1",
+    "instagramVideo": "https://www.instagram.com/reel/DLNbnMhtOYs/?igsh=MWk5aHMwcGZka3BoaA==",
+
     "category": "independent",
     "price": 31000,
     "originalPrice": 35000,
@@ -259,19 +553,311 @@
       "Срок службы: 8–9 лет"
     ],
     "sizes": [
-      { "name": "80x190", "price": 31000, "originalPrice": 35000 },
-      { "name": "90x190", "price": 33500, "originalPrice": 37000 },
-      { "name": "120x200", "price": 41000, "originalPrice": 46000 },
-      { "name": "140x200", "price": 46000, "originalPrice": 46800 },
-      { "name": "160x200", "price": 52000, "originalPrice": 58000 },
-      { "name": "180x200", "price": 57000, "originalPrice": 64000 }
+      {
+        "name": "80x190",
+        "price": 31000,
+        "originalPrice": 35000,
+        "discountPercent": 11
+      },
+      {
+        "name": "90x190",
+        "price": 33500,
+        "originalPrice": 37000,
+        "discountPercent": 9
+      },
+      {
+        "name": "120x200",
+        "price": 41000,
+        "originalPrice": 46000,
+        "discountPercent": 11
+      },
+      {
+        "name": "140x200",
+        "price": 46000,
+        "originalPrice": 46800,
+        "discountPercent": 2
+      },
+      {
+        "name": "160x200",
+        "price": 52000,
+        "originalPrice": 58000,
+        "discountPercent": 10
+      },
+      {
+        "name": "180x200",
+        "price": 57000,
+        "originalPrice": 64000,
+        "discountPercent": 11
+      }
     ],
     "rating": 4.8,
-    "reviews": 153
+    "reviews": 153,
+    "badge": "Хит продаж"
+  },
+   {
+    "id": 11,
+    "name": "DREAM ZONE",
+    "instagramVideo": "https://www.instagram.com/reel/CjXrWMuAm7r/?igsh=MWU1ZWl3NXVjanhvYQ==",
+    "category": "independent",
+    "price": 49000,
+    "originalPrice": 53000,
+    "images": [
+      "img/матрасы/матрасы с независимыми пружинами/матрас Dream zone/t16.jpg"
+    ],
+    "description": "Матрас с независимыми пружинами и функцией зима–лето. Стороны разной жёсткости: кокос — упругий, ППУ — мягкий. Отличная поддержка до 120 кг и климат-контроль для круглогодичного комфорта.",
+    "features": [
+      "Независимый пружинный блок Pocket Spring, 500 пружин/сп. место",
+      "Сторона 1: ППУ 2 см + термовойлок",
+      "Сторона 2: Кокосовая койра 1 см + термовойлок",
+      "Эластичный еврокаркас",
+      "Высота: 19–20 см",
+      "Жесткость: средняя/умеренно-жёсткая",
+      "Чехол: жаккард, зимне-летний, стёганный с синтепоном",
+      "Нагрузка: до 120 кг",
+      "Гарантия: 3 года",
+      "Срок службы: 10–12 лет"
+    ],
+    "sizes": [
+      {
+        "name": "80x190",
+        "price": 49000,
+        "originalPrice": 53000,
+        "discountPercent": 8
+      },
+      {
+        "name": "90x190",
+        "price": 52000,
+        "originalPrice": 56000,
+        "discountPercent": 7
+      },
+      {
+        "name": "120x200",
+        "price": 58000,
+        "originalPrice": 62000,
+        "discountPercent": 6
+      },
+      {
+        "name": "140x200",
+        "price": 63000,
+        "originalPrice": 67000,
+        "discountPercent": 6
+      },
+      {
+        "name": "160x200",
+        "price": 69000,
+        "originalPrice": 73000,
+        "discountPercent": 5
+      },
+      {
+        "name": "180x200",
+        "price": 76000,
+        "originalPrice": 80000,
+        "discountPercent": 5
+      }
+    ],
+    "rating": 4.85,
+    "reviews": 144,
+    "badge": "Хит продаж"
+  },
+   {
+    "id": 12,
+    "name": "Summer Plus",
+    "instagramVideo": "https://www.instagram.com/reel/DLNbnMhtOYs/?igsh=MWk5aHMwcGZka3BoaA==",
+    "category": "independent",
+    "price": 43500,
+    "originalPrice": 45000,
+    "images": [
+      "img/матрасы/матрасы с независимыми пружинами/Матрас SUMMER PLUS/эл17.jpg",
+      "img/матрасы/матрасы с независимыми пружинами/Матрас SUMMER PLUS/э1.jpg"
+    ],
+    "description": "Ортопедический матрас с Pocket Spring, натуральным латексом и кокосом. Разная жёсткость сторон, высота 23 см. Подходит до 120 кг. Чехол из хлопкового жаккарда. Обеспечивает здоровый и комфортный сон.",
+    "features": [
+      "Независимый пружинный блок Pocket Spring, 510 пружин/сп. место",
+      "Сторона 1: Латекс 2 см + термовойлок",
+      "Сторона 2: Кокос 1 см + ППУ 1 см + термовойлок",
+      "Высота: 23 см",
+      "Жесткость: средняя/выше средней (разные стороны)",
+      "Периметр: эластичный еврокаркас из ППУ",
+      "Чехол: хлопковый жаккард на синтепоне",
+      "Нагрузка: до 120 кг",
+      "Гарантия: 3 года, срок службы: до 10 лет"
+    ],
+    "sizes": [
+      {
+        "name": "80x190",
+        "price": 43500,
+        "originalPrice": 45000,
+        "discountPercent": 3
+      },
+      {
+        "name": "90x190",
+        "price": 48000,
+        "originalPrice": 50000,
+        "discountPercent": 4
+      },
+      {
+        "name": "120x200",
+        "price": 57000,
+        "originalPrice": 59000,
+        "discountPercent": 3
+      },
+      {
+        "name": "140x200",
+        "price": 65000,
+        "originalPrice": 69000,
+        "discountPercent": 6
+      },
+      {
+        "name": "160x200",
+        "price": 78000,
+        "originalPrice": 85000,
+        "discountPercent": 8
+      },
+      {
+        "name": "180x200",
+        "price": 88000,
+        "originalPrice": 93000,
+        "discountPercent": 5
+      }
+    ],
+    "rating": 4.91,
+    "reviews": 33
   },
   {
-    "id": 10,
+    "id": 13,
+    "name": "Energy",
+    "instagramVideo": "https://www.instagram.com/reel/CjkJdMzM2Gq/?igsh=MTZvaG9uZGpnZnFibg==",
+    "category": "independent",
+    "price": 52000,
+    "originalPrice": 65000,
+    "images": [
+      "img/матрасы/матрасы с независимыми пружинами/Матрас ENERGY жесткий/1.jpeg",
+      "img/матрасы/матрасы с независимыми пружинами/Матрас ENERGY жесткий/эл кок нью.jpg"
+    ],
+    "description": "Жёсткий матрас с независимыми пружинами, усиленным каркасом и нагрузкой до 160 кг. Кокос и ППУ обеспечивают жёсткость и упругость. Подходит для людей с больной спиной или высоким весом.",
+    "features": [
+      "Независимый пружинный блок Pocket Spring, 480–500 пружин/сп. место",
+      "Сторона 1: Кокос 2 см + ППУ 2 см + термовойлок",
+      "Сторона 2: ППУ 3 см + термовойлок",
+      "Усиленный жёсткий еврокаркас",
+      "Высота: 22–23 см",
+      "Жесткость: жёсткий / средний",
+      "Чехол: трикотаж, стёганный с синтепоном",
+      "Нагрузка: до 160 кг",
+      "Гарантия: 5 лет",
+      "Срок службы: до 15 лет"
+    ],
+    "sizes": [
+      {
+        "name": "80x190",
+        "price": 52000,
+        "originalPrice": 65000,
+        "discountPercent": 20
+      },
+      {
+        "name": "90x190",
+        "price": 55000,
+        "originalPrice": 68000,
+        "discountPercent": 19
+      },
+      {
+        "name": "120x200",
+        "price": 66000,
+        "originalPrice": 89000,
+        "discountPercent": 26
+      },
+      {
+        "name": "140x200",
+        "price": 72000,
+        "originalPrice": 105000,
+        "discountPercent": 31
+      },
+      {
+        "name": "160x200",
+        "price": 80000,
+        "originalPrice": 118000,
+        "discountPercent": 32
+      },
+      {
+        "name": "180x200",
+        "price": 87000,
+        "originalPrice": 125000,
+        "discountPercent": 30
+      }
+    ],
+    "rating": 4.92,
+    "reviews": 203,
+    "badge": "Хит продаж"
+  },
+    {
+    "id": 14,
+    "name": "Elite-22",
+    "instagramVideo": "https://www.instagram.com/reel/DLNbnMhtOYs/?igsh=MWk5aHMwcGZka3BoaA==",
+    "category": "independent",
+    "price": 88000,
+    "originalPrice": 93000,
+    "images": [
+      "img/матрасы/матрасы с независимыми пружинами/Элит-22/Элит-22.jpg"
+    ],
+    "description": "Высокий матрас с жёсткой и усиленно жёсткой стороной. Натуральный латекс, кокос, Pocket Spring. Выдерживает 150 кг, подходит для спины. Чехол — хлопковый жаккард. Надёжный, упругий, долговечный, анатомичный, комфортный.",
+    "features": [
+      "Независимый пружинный блок Pocket Spring, 500 пружин/сп. место",
+      "Сторона 1: 3 см кокоса + латекс + термовойлок",
+      "Сторона 2: 2 см кокоса + латекс + термовойлок",
+      "Жесткость: жесткая / усиленно жесткая",
+      "Высота: 26–27 см",
+      "Периметр: усиленный еврокаркас из ППУ, высота 10 см",
+      "Чехол: хлопковый жаккард, стёганный на синтепоне",
+      "Нагрузка: до 150 кг на спальное место",
+      "Гарантия: 10 лет, срок службы: до 25 лет"
+    ],
+    "sizes": [
+      {
+        "name": "80x190",
+        "price": 47000,
+        "originalPrice": 50000,
+        "discountPercent": 6
+      },
+      {
+        "name": "90x190",
+        "price": 52000,
+        "originalPrice": 56000,
+        "discountPercent": 7
+      },
+      {
+        "name": "120x200",
+        "price": 61000,
+        "originalPrice": 65000,
+        "discountPercent": 6
+      },
+      {
+        "name": "140x200",
+        "price": 70000,
+        "originalPrice": 74000,
+        "discountPercent": 5
+      },
+      {
+        "name": "160x200",
+        "price": 79000,
+        "originalPrice": 81000,
+        "discountPercent": 2
+      },
+      {
+        "name": "180x200",
+        "price": 88000,
+        "originalPrice": 93000,
+        "discountPercent": 5
+      }
+    ],
+    "rating": 4.96,
+    "reviews": 27,
+    "badge": "Хит продаж"
+  },
+   {
+    "id": 15,
     "name": "BALANCE-P",
+    "instagramVideo": "https://www.instagram.com/reel/DLNbnMhtOYs/?igsh=MWk5aHMwcGZka3BoaA==",
+
     "category": "independent",
     "price": 59000,
     "originalPrice": 64000,
@@ -295,16 +881,32 @@
       "Срок службы: 15 лет"
     ],
     "sizes": [
-      { "name": "80x190", "price": 59000, "originalPrice": 64000 },
-      { "name": "160x200", "price": 87000, "originalPrice": 92000 },
-      { "name": "180x200", "price": 96000, "originalPrice": 102000 }
+      {
+        "name": "80x190",
+        "price": 59000,
+        "originalPrice": 64000,
+        "discountPercent": 8
+      },
+      {
+        "name": "160x200",
+        "price": 87000,
+        "originalPrice": 92000,
+        "discountPercent": 5
+      },
+      {
+        "name": "180x200",
+        "price": 96000,
+        "originalPrice": 102000,
+        "discountPercent": 6
+      }
     ],
     "rating": 4.9,
     "reviews": 162
   },
-  {
-    "id": 11,
-    "name": "MULTIPOCKET-LUXE",
+    {
+    "id": 16,
+    "name": "COMFORT-LUXE",
+    "instagramVideo": "https://www.instagram.com/reel/CzLmzwrNli7/?igsh=dDNzNXE4c2RsMmN6",
     "category": "independent",
     "price": 69000,
     "originalPrice": 74000,
@@ -326,86 +928,37 @@
       "Срок службы: 20–25 лет"
     ],
     "sizes": [
-      { "name": "80x190", "price": 69000, "originalPrice": 74000 },
-      { "name": "160x200", "price": 119000, "originalPrice": 124000 },
-      { "name": "180x200", "price": 132000, "originalPrice": 138000 }
+      {
+        "name": "80x190",
+        "price": 69000,
+        "originalPrice": 74000,
+        "discountPercent": 7
+      },
+      {
+        "name": "160x200",
+        "price": 119000,
+        "originalPrice": 124000,
+        "discountPercent": 4
+      },
+      {
+        "name": "180x200",
+        "price": 132000,
+        "originalPrice": 138000,
+        "discountPercent": 4
+      }
     ],
     "rating": 4.95,
     "reviews": 185
   },
+ 
   {
-    "id": 12,
-    "name": "DREAM ZONE",
-    "category": "independent",
-    "price": 49000,
-    "originalPrice": 53000,
-    "images": [
-      "img/матрасы/матрасы с независимыми пружинами/матрас Dream zone/t16.jpg"
-    ],
-    "description": "Матрас с независимыми пружинами и функцией зима–лето. Стороны разной жёсткости: кокос — упругий, ППУ — мягкий. Отличная поддержка до 120 кг и климат-контроль для круглогодичного комфорта.",
-    "features": [
-      "Независимый пружинный блок Pocket Spring, 500 пружин/сп. место",
-      "Сторона 1: ППУ 2 см + термовойлок",
-      "Сторона 2: Кокосовая койра 1 см + термовойлок",
-      "Эластичный еврокаркас",
-      "Высота: 19–20 см",
-      "Жесткость: средняя/умеренно-жёсткая",
-      "Чехол: жаккард, зимне-летний, стёганный с синтепоном",
-      "Нагрузка: до 120 кг",
-      "Гарантия: 3 года",
-      "Срок службы: 10–12 лет"
-    ],
-    "sizes": [
-      { "name": "80x190", "price": 49000, "originalPrice": 53000 },
-      { "name": "90x190", "price": 52000, "originalPrice": 56000 },
-      { "name": "120x200", "price": 58000, "originalPrice": 62000 },
-      { "name": "140x200", "price": 63000, "originalPrice": 67000 },
-      { "name": "160x200", "price": 69000, "originalPrice": 73000 },
-      { "name": "180x200", "price": 76000, "originalPrice": 80000 }
-    ],
-    "rating": 4.85,
-    "reviews": 144
-  },
-  {
-    "id": 13,
-    "name": "Energy",
-    "category": "independent",
-    "price": 52000,
-    "originalPrice": 65000,
-    "images": [
-      "img/матрасы/матрасы с независимыми пружинами/Матрас ENERGY жесткий/1.jpeg",
-      "img/матрасы/матрасы с независимыми пружинами/Матрас ENERGY жесткий/эл кок нью.jpg"
-    ],
-    "description": "Жёсткий матрас с независимыми пружинами, усиленным каркасом и нагрузкой до 160 кг. Кокос и ППУ обеспечивают жёсткость и упругость. Подходит для людей с больной спиной или высоким весом.",
-    "features": [
-      "Независимый пружинный блок Pocket Spring, 480–500 пружин/сп. место",
-      "Сторона 1: Кокос 2 см + ППУ 2 см + термовойлок",
-      "Сторона 2: ППУ 3 см + термовойлок",
-      "Усиленный жёсткий еврокаркас",
-      "Высота: 22–23 см",
-      "Жесткость: жёсткий / средний",
-      "Чехол: трикотаж, стёганный с синтепоном",
-      "Нагрузка: до 160 кг",
-      "Гарантия: 5 лет",
-      "Срок службы: до 15 лет"
-    ],
-    "sizes": [
-      { "name": "80x190", "price": 52000, "originalPrice": 65000 },
-      { "name": "90x190", "price": 55000, "originalPrice": 68000 },
-      { "name": "120x200", "price": 66000, "originalPrice": 89000 },
-      { "name": "140x200", "price": 72000, "originalPrice": 105000 },
-      { "name": "160x200", "price": 80000, "originalPrice": 118000 },
-      { "name": "180x200", "price": 87000, "originalPrice": 125000 }
-    ],
-    "rating": 4.92,
-    "reviews": 203
-  },
-  {
-    "id": 14,
+    "id": 17,
     "name": "Memory Soft",
+    "instagramVideo": "https://www.instagram.com/reel/DLNbnMhtOYs/?igsh=MWk5aHMwcGZka3BoaA==",
+
     "category": "independent",
     "price": 59000,
-    "originalPrice": null,
+    "originalPrice": 66000,
     "images": [
       "img/матрасы/матрасы с независимыми пружинами/Матрас MEMORY SOFT/Эл мем.jpg",
       "img/матрасы/матрасы с независимыми пружинами/Матрас MEMORY SOFT/э1.jpg"
@@ -424,53 +977,35 @@
       "Срок службы: 10–12 лет"
     ],
     "sizes": [
-      { "name": "80x190", "price": 59000 },
-      { "name": "160x200", "price": 101000 },
-      { "name": "180x200", "price": 115000 }
+      {
+        "name": "80x190",
+        "price": 59000,
+        "originalPrice": 66000,
+        "discountPercent": 11
+      },
+      {
+        "name": "160x200",
+        "price": 101000,
+        "originalPrice": 115000,
+        "discountPercent": 12
+      },
+      {
+        "name": "180x200",
+        "price": 115000,
+        "originalPrice": 130000,
+        "discountPercent": 12
+      }
     ],
     "rating": 4.87,
     "reviews": 178
   },
   {
-    "id": 15,
-    "name": "Orto Max Sale",
-    "category": "independent",
-    "price": 28000,
-    "originalPrice": 35000,
-    "images": [
-      "img/матрасы/матрасы с независимыми пружинами/матрас ORTHO MAX SALE/е1.jpg",
-      "img/матрасы/матрасы с независимыми пружинами/матрас ORTHO MAX SALE/э1.jpg"
-    ],
-    "description": "Ортопедический матрас с независимыми пружинами TFK и пеноосновой OrtoFoam. Подходит для сна до 110 кг. Дышащий, гипоаллергенный, средней мягкости. Оптимален по цене, комфорту и высоте — 18 см.",
-    "features": [
-      "Независимый пружинный блок Pocket Spring, 480 пружин/сп. место",
-      "Стороны: ППУ 1,5 см + термовойлок с обеих сторон",
-      "Периметр: эластичный еврокаркас из ППУ",
-      "Высота: 18 см",
-      "Жесткость: умеренно-мягкий",
-      "Чехол: жаккард, стёганный с синтепоном",
-      "Нагрузка: до 110 кг",
-      "Без клея, гипоаллергенные материалы",
-      "Гарантия: 24 месяца",
-      "Срок службы: до 8 лет"
-    ],
-    "sizes": [
-      { "name": "80x190", "price": 28000, "originalPrice": 35000 },
-      { "name": "90x190", "price": 31000, "originalPrice": 39000 },
-      { "name": "120x200", "price": 36800, "originalPrice": 46000 },
-      { "name": "140x200", "price": 42400, "originalPrice": 53000 },
-      { "name": "160x200", "price": 46000, "originalPrice": 58000 },
-      { "name": "180x200", "price": 52000, "originalPrice": 65000 }
-    ],
-    "rating": 4.72,
-    "reviews": 96
-  },
-  {
-    "id": 16,
+    "id": 18,
     "name": "Premium Soft",
+    "instagramVideo": "https://www.instagram.com/reel/DLNbnMhtOYs/?igsh=MWk5aHMwcGZka3BoaA==",
     "category": "independent",
     "price": 190000,
-    "originalPrice": 190000,
+    "originalPrice": 199000,
     "images": [
       "img/матрасы/матрасы с независимыми пружинами/Матрас PREMIUM SOFT/мультиммеори.jpg",
       "img/матрасы/матрасы с независимыми пружинами/Матрас PREMIUM SOFT/э1.jpg"
@@ -489,75 +1024,20 @@
       "Гарантия: 7 лет, срок службы: до 15 лет"
     ],
     "sizes": [
-      { "name": "160x200", "price": 190000, "originalPrice": 190000 },
-      { "name": "180x200", "price": 220000, "originalPrice": 220000 }
+      {
+        "name": "160x200",
+        "price": 190000,
+        "originalPrice": 199000,
+        "discountPercent": 5
+      },
+      {
+        "name": "180x200",
+        "price": 220000,
+        "originalPrice": 225000,
+        "discountPercent": 2
+      }
     ],
     "rating": 4.94,
     "reviews": 47
-  },
-  {
-    "id": 17,
-    "name": "Summer Plus",
-    "category": "independent",
-    "price": 78000,
-    "originalPrice": 78000,
-    "images": [
-      "img/матрасы/матрасы с независимыми пружинами/Матрас SUMMER PLUS/эл17.jpg",
-      "img/матрасы/матрасы с независимыми пружинами/Матрас SUMMER PLUS/э1.jpg"
-    ],
-    "description": "Ортопедический матрас с Pocket Spring, натуральным латексом и кокосом. Разная жёсткость сторон, высота 23 см. Подходит до 120 кг. Чехол из хлопкового жаккарда. Обеспечивает здоровый и комфортный сон.",
-    "features": [
-      "Независимый пружинный блок Pocket Spring, 510 пружин/сп. место",
-      "Сторона 1: Латекс 2 см + термовойлок",
-      "Сторона 2: Кокос 1 см + ППУ 1 см + термовойлок",
-      "Высота: 23 см",
-      "Жесткость: средняя/выше средней (разные стороны)",
-      "Периметр: эластичный еврокаркас из ППУ",
-      "Чехол: хлопковый жаккард на синтепоне",
-      "Нагрузка: до 120 кг",
-      "Гарантия: 3 года, срок службы: до 10 лет"
-    ],
-    "sizes": [
-      { "name": "80x190", "price": 43500, "originalPrice": 43500 },
-      { "name": "90x190", "price": 48000, "originalPrice": 48000 },
-      { "name": "120x200", "price": 57000, "originalPrice": 57000 },
-      { "name": "140x200", "price": 65000, "originalPrice": 65000 },
-      { "name": "160x200", "price": 78000, "originalPrice": 78000 },
-      { "name": "180x200", "price": 88000, "originalPrice": 88000 }
-    ],
-    "rating": 4.91,
-    "reviews": 33
-  },
-  {
-    "id": 18,
-    "name": "Элит-22",
-    "category": "independent",
-    "price": 88000,
-    "originalPrice": 88000,
-    "images": [
-      "img/матрасы/матрасы с независимыми пружинами/Элит-22/Элит-22.jpg"
-    ],
-    "description": "Высокий матрас с жёсткой и усиленно жёсткой стороной. Натуральный латекс, кокос, Pocket Spring. Выдерживает 150 кг, подходит для спины. Чехол — хлопковый жаккард. Надёжный, упругий, долговечный, анатомичный, комфортный.",
-    "features": [
-      "Независимый пружинный блок Pocket Spring, 500 пружин/сп. место",
-      "Сторона 1: 3 см кокоса + латекс + термовойлок",
-      "Сторона 2: 2 см кокоса + латекс + термовойлок",
-      "Жесткость: жесткая / усиленно жесткая",
-      "Высота: 26–27 см",
-      "Периметр: усиленный еврокаркас из ППУ, высота 10 см",
-      "Чехол: хлопковый жаккард, стёганный на синтепоне",
-      "Нагрузка: до 150 кг на спальное место",
-      "Гарантия: 10 лет, срок службы: до 25 лет"
-    ],
-    "sizes": [
-      { "name": "80x190", "price": 47000, "originalPrice": 47000 },
-      { "name": "90x190", "price": 52000, "originalPrice": 52000 },
-      { "name": "120x200", "price": 61000, "originalPrice": 61000 },
-      { "name": "140x200", "price": 70000, "originalPrice": 70000 },
-      { "name": "160x200", "price": 79000, "originalPrice": 79000 },
-      { "name": "180x200", "price": 88000, "originalPrice": 88000 }
-    ],
-    "rating": 4.96,
-    "reviews": 27
   }
-] 
+]
